@@ -124,6 +124,22 @@ body {
   color: #a5a488;
 }
 
+/* Button Hover Effects */
+.btn.primary:hover {
+  background: #8e8d72; /* darker shade of #a5a488 */
+  color: #fff;
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+.btn.outline:hover {
+  background: #a5a488;  /* same as border color */
+  color: #fff;
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+
 .hero-right {
   flex: 1 1 400px;
   position: relative;
