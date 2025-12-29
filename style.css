@@ -57,6 +57,12 @@ body {
   transition: color 0.3s;
 }
 
+.nav-links li a.active {
+  color: #a5a488;
+  font-weight: 600;
+}
+
+
 .nav-links li a:hover {
   color: #7e826d;
 }
@@ -98,6 +104,7 @@ body {
 
 .hero-left h1 span {
   color: #a5a488;
+  position: relative;
 }
 
 .buttons {
@@ -113,6 +120,15 @@ body {
   text-decoration: none;
   display: inline-block;
 }
+
+.btn,
+.nav-links a,
+.skill-card,
+.project-card,
+.social-icons a {
+  transition: all 0.3s ease;
+}
+
 
 .btn.primary {
   background: #a5a488;
@@ -209,6 +225,9 @@ body {
   font-size: 16px;
   margin-bottom: 10px;
   color: #333;
+  text-align: justify;
+  line-height: 1.7;
+
 }
 
 .about-details p {
@@ -347,6 +366,12 @@ body {
 .project-info h3 {
   font-size: 20px;
   margin-bottom: 10px;
+  transform: translateY(10px);
+  transition: all 0.4s ease;
+}
+
+.project-card:hover .project-info h3 {
+  transform: translateY(0);
 }
 
 .project-info a {
@@ -506,6 +531,14 @@ body {
     display: block;
   }
 }
+
+@media (max-width: 480px) {
+  .hero-right img {
+    width: 280px;
+    height: 280px;
+  }
+}
+
 
 @media (max-width: 768px) {
   .about-grid {
