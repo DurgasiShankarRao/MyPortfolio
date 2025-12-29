@@ -40,8 +40,7 @@ This portfolio highlights my web development journey, hands-on projects, and pro
 
 ## 🚀 Live Demo
 
-🔗 **Portfolio Live:**  
-
+🔗 **Portfolio Live:** https://durgasishankarrao.github.io/MyPortfolio/
 
 ---
 
